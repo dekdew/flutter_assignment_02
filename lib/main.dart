@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import './ui/todo.dart';
+import './ui/home.dart';
 import './ui/newSubject.dart';
 
 void main() => runApp(MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => Todo(),
+        '/': (context) => Home(),
         '/add': (context) => NewSubject()
       },
     );
